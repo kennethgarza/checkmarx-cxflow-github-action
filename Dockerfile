@@ -4,7 +4,7 @@ FROM checkmarx/cx-flow
 COPY scripts/keytool-import-certs.sh /app/keytool-import-certs.sh
 
 ## import host's host file
-COPY /etc/hosts /etc/hosts
+RUN echo "10.52.16.33 checkmarx.rbxd.ds" >> /etc/hosts
 
 #Make it executable
 RUN chmod +x /app/keytool-import-certs.sh
