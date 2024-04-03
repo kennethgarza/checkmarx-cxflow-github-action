@@ -179,6 +179,7 @@ runs:
     - ${{ inputs.jira_close_transition }}
     - ${{ inputs.jira_open_status }}
     - ${{ inputs.jira_closed_status }}
+    - "--add-host checkmarx.rbxd.ds:10.52.16.33"
 
   env:
     TEAM: "${{ inputs.team }}"
