@@ -1,5 +1,8 @@
 #!/bin/sh
 
+echo "10.52.16.33 checkmarx.rbxd.ds" >> /etc/hosts
+cat /etc/hosts
+
 # import custom certificates into java cacerts keystore
 if [ -n "$EXTRA_CERTIFICATES" ]
 then
