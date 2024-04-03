@@ -1,4 +1,4 @@
-name: 'Checkmarx CxFlow Action'
+name: 'Checkmarx CxFlow Action - KennethGarza Test'
 description: 'Simplify Checkmarx Scanning of source code along with Result consumption leveraging Checkmarx CxFlow solution.'
 author: 'Checkmarx Technical Services'
 inputs:
